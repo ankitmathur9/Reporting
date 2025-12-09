@@ -5,17 +5,7 @@ module.exports = {
     "./public/index.html"
   ],
   theme: {
-    extend: {
-      colors: {
-        'brand-blue': '#1e40af',
-        'brand-indigo': '#4f46e5',
-      },
-    },
+    extend: {},
   },
   plugins: [],
-  safelist: [
-    'animate-spin',
-    'bg-indigo-600',
-    'hover:bg-indigo-700',
-  ],
 }
