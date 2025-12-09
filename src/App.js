@@ -447,9 +447,9 @@ const LoginScreen = ({ onLogin }) => {
                 <button 
                   type="button"
                   onClick={() => {
-                    setOtp('');
-                    showToast('New code sent to email', 'success');
-                  }}
+  setOtp('');
+  // Toast removed for resend
+}}
                   className="text-xs font-semibold text-slate-500 hover:text-indigo-600 transition-colors flex items-center justify-center gap-1"
                 >
                   <RefreshCw size={12} /> Resend Code
